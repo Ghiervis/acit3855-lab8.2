@@ -1,0 +1,159 @@
+openapi: 3.0.0
+info:
+  title: Storage Service API
+  version: "1.0.0"
+paths:
+  /events/player-performance:
+    post:
+      summary: Store player performance event
+      operationId: app.log_player_performance
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                playerId:
+                  type: string
+                score:
+                  type: integer
+                trace_id:
+                  type: string
+                uuid:
+                  type: string
+                  format: uuid
+                numeric_value:
+                  type: integer
+              required:
+                - playerId
+                - score
+                - trace_id
+                - uuid
+                - numeric_value
+      responses:
+        '201':
+          description: Player performance stored successfully
+        '400':
+          description: Invalid input
+    get:
+      summary: Retrieve player performance events by timestamp range
+      operationId: app.get_player_performance
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start timestamp (inclusive)
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: 2025-02-01T00:00:00.000Z
+        - name: end_timestamp
+          in: query
+          description: End timestamp (exclusive)
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: 2025-03-01T00:00:00.000Z
+      responses:
+        '200':
+          description: Successfully retrieved player performance events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    playerId:
+                      type: string
+                    score:
+                      type: integer
+                    trace_id:
+                      type: string
+                    uuid:
+                      type: string
+                      format: uuid
+                    numeric_value:
+                      type: integer
+                    date_created:
+                      type: string
+                      format: date-time
+        '400':
+          description: Invalid input
+
+  /events/audience-interaction:
+    post:
+      summary: Store audience interaction event
+      operationId: app.log_audience_interaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                interactionType:
+                  type: string
+                trace_id:
+                  type: string
+                uuid:
+                  type: string
+                  format: uuid
+                numeric_value:
+                  type: integer
+              required:
+                - interactionType
+                - trace_id
+                - uuid
+                - numeric_value
+      responses:
+        '201':
+          description: Audience interaction stored successfully
+        '400':
+          description: Invalid input
+    get:
+      summary: Retrieve audience interaction events by timestamp range
+      operationId: app.get_audience_interaction
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start timestamp (inclusive)
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: 2025-02-01T00:00:00.000Z
+        - name: end_timestamp
+          in: query
+          description: End timestamp (exclusive)
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: 2025-03-01T00:00:00.000Z
+      responses:
+        '200':
+          description: Successfully retrieved audience interaction events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    interactionType:
+                      type: string
+                    trace_id:
+                      type: string
+                    uuid:
+                      type: string
+                      format: uuid
+                    numeric_value:
+                      type: integer
+                    date_created:
+                      type: string
+                      format: date-time
+        '400':
+          description: Invalid input

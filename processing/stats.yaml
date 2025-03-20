@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: Processing Service API
+  version: "1.0.0"
+  description: This API provides event statistics
+paths:
+  /stats:
+    get:
+      summary: Gets the event statistics
+      operationId: app.get_stats
+      responses:
+        '200':
+          description: Successfully returned statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  num_player_performance:
+                    type: integer
+                  max_score:
+                    type: integer
+                  num_audience_interaction:
+                    type: integer
+                  max_numeric_value:
+                    type: integer
+                  last_updated:
+                    type: string
+                    format: date-time
+        '404':
+          description: Statistics do not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string

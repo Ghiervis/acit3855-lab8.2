@@ -1,0 +1,79 @@
+openapi: 3.0.0
+info:
+  title: Analyzer Service API
+  version: "1.0.0"
+paths:
+  /events/player-performance:
+    get:
+      summary: Get a player performance event by index
+      operationId: app.get_player_performance_event
+      parameters:
+        - name: index
+          in: query
+          description: The index of the player-performance event in the Kafka queue.
+          required: true
+          schema:
+            type: integer
+            example: 0
+      responses:
+        '200':
+          description: Player performance event found.
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Player performance event not found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /events/audience-interaction:
+    get:
+      summary: Get an audience interaction event by index
+      operationId: app.get_audience_interaction_event
+      parameters:
+        - name: index
+          in: query
+          description: The index of the audience-interaction event in the Kafka queue.
+          required: true
+          schema:
+            type: integer
+            example: 0
+      responses:
+        '200':
+          description: Audience interaction event found.
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Audience interaction event not found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /stats:
+    get:
+      summary: Get statistics on events in Kafka.
+      operationId: app.get_event_stats
+      responses:
+        '200':
+          description: Statistics computed successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  num_player_performance:
+                    type: integer
+                    example: 10
+                  num_audience_interaction:
+                    type: integer
+                    example: 5

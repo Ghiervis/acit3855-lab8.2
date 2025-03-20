@@ -1,0 +1,50 @@
+openapi: 3.0.0
+info:
+  title: Receiver Service API
+  version: "1.0.0"
+paths:
+  /events/player-performance:
+    post:
+      summary: Produce a player performance event to Kafka
+      operationId: app.post_player_performance_event
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                playerId:
+                  type: string
+                score:
+                  type: integer
+                numeric_value:
+                  type: integer
+              required:
+                - playerId
+                - score
+                - numeric_value
+      responses:
+        '201':
+          description: Player performance event produced
+  /events/audience-interaction:
+    post:
+      summary: Produce an audience interaction event to Kafka
+      operationId: app.post_audience_interaction_event
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                interactionType:
+                  type: string
+                numeric_value:
+                  type: integer
+              required:
+                - interactionType
+                - numeric_value
+      responses:
+        '201':
+          description: Audience interaction event produced

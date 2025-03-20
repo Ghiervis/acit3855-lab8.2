@@ -1,0 +1,11 @@
+version: 3
+datastore:
+  user: ghiervis
+  password: password
+  hostname: localhost
+  port: 3307
+  db: esport
+events:
+  hostname: localhost
+  port: 9092
+  topic: events

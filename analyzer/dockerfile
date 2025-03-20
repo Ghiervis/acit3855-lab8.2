@@ -1,0 +1,26 @@
+FROM python:3.9-slim
+
+LABEL maintainer="gtuazon@my.bcit.ca"
+
+# Create and switch to /app
+RUN mkdir /app
+WORKDIR /app
+
+# Copy requirements first
+COPY requirements.txt /app
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the receiver code
+COPY . /app
+
+# (Optional) run as non-root
+RUN chown -R nobody:nogroup /app
+USER nobody
+
+# Expose the receiver port 
+EXPOSE 8110
+
+ENTRYPOINT ["python"]
+CMD ["app.py"]

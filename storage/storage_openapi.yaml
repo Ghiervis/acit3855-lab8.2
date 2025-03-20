@@ -1,0 +1,45 @@
+openapi: 3.0.0
+info:
+  title: Storage Service API
+  version: "1.0.0"
+paths:
+  /events/player-performance:
+    get:
+      summary: Retrieve player performance events by timestamp range
+      operationId: app.get_player_performance
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successfully retrieved events
+  /events/audience-interaction:
+    get:
+      summary: Retrieve audience interaction events by timestamp range
+      operationId: app.get_audience_interaction
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successfully retrieved events

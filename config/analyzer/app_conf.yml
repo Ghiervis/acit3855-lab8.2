@@ -1,0 +1,5 @@
+version: 1
+kafka:
+  hostname: localhost
+  port: "9092"
+  topic: events

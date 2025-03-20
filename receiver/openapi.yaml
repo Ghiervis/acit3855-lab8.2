@@ -1,0 +1,68 @@
+openapi: 3.0.0
+info:
+  title: Receiver Service API
+  version: "1.0.0"
+
+paths:
+  /events/player-performance:
+    post:
+      summary: Receive player performance event
+      operationId: app.log_player_performance
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                playerId:
+                  type: string
+                score:
+                  type: integer
+                uuid:
+                  type: string
+                  format: uuid
+                numeric_value:
+                  type: integer
+              required:
+                - playerId
+                - score
+                - uuid
+                - numeric_value
+      responses:
+        '200':
+          description: Player performance received successfully
+        '400':
+          description: Invalid input
+
+  /events/audience-interaction:
+    post:
+      summary: Receive audience interaction event
+      operationId: app.log_audience_interaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                interactionType:
+                  type: string
+                timestamp:
+                  type: string
+                  format: date-time
+                uuid:
+                  type: string
+                  format: uuid
+                numeric_value:
+                  type: integer
+              required:
+                - interactionType
+                - timestamp
+                - uuid
+                - numeric_value
+      responses:
+        '200':
+          description: Audience interaction received successfully
+        '400':
+          description: Invalid input

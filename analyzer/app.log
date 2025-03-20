@@ -1,0 +1,1181 @@
+2025-03-05 19:18:35,499 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-05 19:18:35,508 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-05 19:18:35,671 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:18:35,698 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,699 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,699 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:18:35,699 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,699 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,700 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:18:35,700 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,700 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,701 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,701 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,701 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,702 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,702 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,702 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,702 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,703 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,703 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,703 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,703 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,704 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,704 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-05 19:18:35,704 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,704 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,705 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,705 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,705 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,705 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,706 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,706 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,706 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:18:35,706 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,706 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,706 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:18:35,708 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,708 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,708 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:18:35,708 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:18:35,709 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,709 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,709 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:18:35,710 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,710 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:18:35,710 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:18:35,711 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:18:35,711 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:18:35,711 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-05 19:18:35,712 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-05 19:18:35,712 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-05 19:41:52,258 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-05 19:41:52,265 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-05 19:41:52,423 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:41:52,476 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,477 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,477 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:41:52,477 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,477 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,478 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:41:52,478 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,479 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,484 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,484 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,484 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,484 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,485 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,485 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,486 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,487 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,487 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,488 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,488 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,489 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,490 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-05 19:41:52,491 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,492 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,494 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,494 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,496 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,496 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,497 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,498 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,499 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:41:52,503 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,504 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,506 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:41:52,509 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,510 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,511 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:41:52,513 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:41:52,516 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,518 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,520 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:41:52,521 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,522 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:41:52,523 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:41:52,525 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:41:52,526 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:41:52,528 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-05 19:41:52,529 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-05 19:41:52,532 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-05 19:42:06,874 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:42:06,879 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:42:06,880 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:42:06,882 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:42:06,885 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:42:06,887 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:42:11,010 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:42:11,011 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:11,012 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:15,397 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:42:15,398 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:15,399 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:19,793 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:42:19,794 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:19,795 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:20,096 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:42:20,098 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:42:20,099 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:42:24,192 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:42:24,193 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:24,194 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:28,586 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:42:28,587 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:28,588 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:32,986 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:42:32,986 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:32,987 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:33,288 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:42:33,288 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:42:33,290 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:42:37,377 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:42:37,378 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:37,378 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:41,751 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:42:41,752 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:41,752 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:46,122 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:42:46,124 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:46,124 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:46,425 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:42:46,426 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:42:46,427 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:42:46,471 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:42:46,475 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:42:46,476 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:42:46,476 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:42:46,477 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:42:46,478 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:42:50,569 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:42:50,570 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:50,572 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:54,955 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:42:54,956 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:54,956 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:59,354 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:42:59,354 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:42:59,355 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:42:59,656 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:42:59,657 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:42:59,658 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:43:03,742 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:43:03,743 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:03,744 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:08,135 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:43:08,136 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:08,137 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:12,543 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:43:12,544 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:12,544 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:12,845 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:43:12,846 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:43:12,848 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:43:16,912 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:43:16,912 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:16,912 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:21,310 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:43:21,311 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:21,311 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:25,704 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:43:25,705 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:25,705 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:26,007 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:43:26,007 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:43:26,008 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:43:26,018 - connexion.validators.parameter - DEBUG - /other-event validating parameters...
+2025-03-05 19:43:26,021 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:43:26,021 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the audience-interaction event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:43:26,022 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:43:26,022 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:43:26,024 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:43:30,112 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:43:30,113 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:30,114 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:34,518 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:43:34,518 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:34,519 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:38,896 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:43:38,896 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:38,897 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:39,198 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:43:39,199 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:43:39,200 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:43:43,302 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:43:43,303 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:43,304 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:47,713 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:43:47,713 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:47,715 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:52,102 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:43:52,103 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:52,104 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:43:52,405 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:43:52,406 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:43:52,408 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:43:56,490 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:43:56,490 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:43:56,491 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:44:00,880 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:44:00,881 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:44:00,881 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:44:05,296 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:44:05,296 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:44:05,297 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:44:05,598 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:44:05,598 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:44:05,600 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:08,553 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-05 19:52:08,562 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-05 19:52:08,656 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:52:08,686 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,686 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,687 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:52:08,688 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,688 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,688 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:52:08,688 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,689 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,690 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,691 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,692 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,692 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,693 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,693 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,694 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,695 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,695 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,696 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,696 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,698 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,698 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-05 19:52:08,698 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,699 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,699 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,700 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,700 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,701 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,701 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,702 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,702 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:52:08,704 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,705 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,705 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:52:08,706 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,706 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,706 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:52:08,707 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:52:08,707 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,708 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,709 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:52:08,710 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,710 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:52:08,711 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:52:08,712 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:52:08,712 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:52:08,713 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-05 19:52:08,713 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-05 19:52:08,714 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-05 19:52:16,862 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:16,869 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:16,870 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:16,871 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:16,872 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:16,873 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:16,896 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:16,899 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:16,901 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:16,902 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:16,903 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:16,905 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:17,098 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:17,101 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:17,103 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:17,104 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:17,105 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:17,106 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:17,268 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:17,272 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:17,272 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:17,273 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:17,274 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:17,276 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:17,472 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:17,476 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:17,477 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:17,479 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:17,479 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:17,481 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:20,974 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:20,975 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:20,976 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:21,037 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:21,038 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:21,039 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:21,211 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:21,211 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:21,212 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:21,367 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:21,368 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:21,369 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:21,568 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:21,569 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:21,570 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:25,379 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:25,379 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:25,380 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:25,440 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:25,441 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:25,442 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:25,626 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:25,627 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:25,627 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:25,765 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:25,769 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:25,770 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:25,950 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:25,951 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:25,951 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:29,761 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:29,762 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:29,763 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:29,839 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:29,840 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:29,840 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:30,025 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:30,025 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:30,027 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:30,064 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:30,065 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:30,066 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:30,141 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:30,144 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:30,147 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:30,164 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:30,165 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:30,166 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:30,328 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:30,329 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:30,331 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:30,335 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:30,336 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:30,336 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:30,467 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:30,468 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:30,469 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:30,638 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:30,639 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:30,640 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:34,140 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:34,141 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:34,141 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:34,235 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:34,236 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:34,236 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:34,408 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:34,409 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:34,409 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:34,533 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:34,534 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:34,534 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:34,705 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:34,705 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:34,705 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:38,526 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:38,527 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:38,527 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:38,619 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:38,620 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:38,620 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:38,792 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:38,793 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:38,793 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:38,932 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:38,932 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:38,933 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:39,072 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:39,072 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:39,073 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:42,903 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:42,905 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:42,905 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:42,996 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:42,997 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:42,998 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:43,165 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:43,166 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:43,166 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:43,206 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:43,208 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:43,210 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:43,299 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:43,300 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:43,302 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:43,318 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:43,319 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:43,319 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:43,462 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:43,462 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:43,463 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:43,468 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:43,469 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:43,470 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:43,620 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:43,621 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:43,623 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:43,765 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:43,765 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:43,766 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:47,290 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:47,291 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:47,292 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:47,397 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:47,397 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:47,399 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:47,567 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:47,567 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:47,568 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:47,720 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:47,721 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:47,722 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:47,845 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:52:47,846 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:47,847 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:51,683 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:51,686 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:51,686 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:51,790 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:51,791 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:51,791 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:51,976 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:51,977 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:51,978 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:52,131 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:52,131 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:52,132 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:52,240 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:52:52,240 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:52,241 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,095 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:56,096 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:56,097 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,190 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:56,191 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:56,191 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,346 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:56,347 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:56,348 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,398 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:56,398 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:56,399 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:56,424 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:56,427 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:56,428 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:56,429 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:56,430 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:56,432 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:56,492 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:56,494 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:56,494 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:56,502 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:56,506 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:56,506 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:56,507 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:56,508 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:56,509 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:56,518 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:56,518 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:56,519 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,625 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:52:56,626 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:52:56,626 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:52:56,649 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:56,650 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:56,651 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:56,658 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:56,661 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:56,663 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:56,664 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:56,665 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:56,667 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:56,820 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:56,822 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:56,823 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:56,834 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:56,837 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:56,838 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:56,839 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:56,840 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:56,841 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:52:56,928 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:52:56,929 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:52:56,931 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:52:56,938 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:52:56,941 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:52:56,941 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:52:56,942 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:52:56,942 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:52:56,944 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:00,529 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:00,531 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:00,532 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:00,607 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:00,608 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:00,609 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:00,765 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:00,766 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:00,767 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:00,934 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:00,935 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:00,936 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:01,042 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:01,043 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:01,044 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:04,929 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:04,930 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:04,931 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:05,006 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:05,007 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:05,007 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:05,162 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:05,163 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:05,163 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:05,305 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:05,306 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:05,306 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:05,431 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:05,432 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:05,432 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,312 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:09,312 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:09,314 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,420 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:09,420 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:09,421 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,543 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:09,544 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:09,544 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,615 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:09,616 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:09,617 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:09,666 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:09,667 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:09,668 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,722 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:09,723 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:09,723 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:09,820 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:09,821 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:09,821 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:09,845 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:09,847 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:09,848 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:09,968 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:09,970 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:09,971 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:10,122 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:10,123 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:10,125 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:13,712 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:13,713 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:13,714 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:13,822 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:13,823 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:13,824 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:13,947 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:13,947 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:13,948 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:14,086 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:14,087 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:14,088 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:14,226 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:14,227 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:14,228 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:18,109 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:18,111 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:18,111 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:18,219 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:18,220 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:18,220 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:18,329 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:18,329 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:18,330 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:18,483 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:18,484 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:18,484 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:18,624 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:53:18,624 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:18,625 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:22,508 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:22,510 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:22,510 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:22,617 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:22,618 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:22,619 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:22,727 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:22,728 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:22,728 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:22,811 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:22,812 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:22,813 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:22,881 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:22,881 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:22,882 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:22,921 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:22,922 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:22,924 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:23,022 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:53:23,023 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:23,024 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:23,030 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:23,031 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:23,032 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:23,184 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:23,186 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:23,187 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:23,326 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:53:23,327 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:53:23,329 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:53:26,905 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:26,906 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:26,907 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:26,998 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:26,999 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:27,000 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:27,137 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:27,138 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:27,138 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:27,290 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:27,291 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:27,291 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:53:27,399 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:53:27,400 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:53:27,400 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:54:17,645 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-05 19:54:17,653 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-05 19:54:17,751 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:54:17,793 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,794 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,794 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:54:17,795 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,795 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,796 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:54:17,796 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,796 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,798 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,798 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,799 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,799 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,799 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,799 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,800 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,800 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,801 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,801 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,801 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,802 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,802 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-05 19:54:17,803 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,803 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,805 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,805 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,806 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,807 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,808 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,808 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,809 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:54:17,810 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,810 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,811 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:54:17,812 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,812 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,813 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 19:54:17,814 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 19:54:17,814 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,815 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,816 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 19:54:17,816 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,818 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json', 'application/json']
+2025-03-05 19:54:17,819 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 19:54:17,819 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 19:54:17,820 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 19:54:17,821 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-05 19:54:17,822 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-05 19:54:17,822 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-05 19:54:34,709 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:54:34,716 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:54:34,716 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:54:34,718 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:54:34,720 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:54:34,721 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:54:38,804 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:54:38,805 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:54:38,806 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:54:43,213 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:54:43,213 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:54:43,214 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:54:47,604 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:54:47,606 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:54:47,607 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:54:47,908 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:54:47,908 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:54:47,909 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:54:51,991 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:54:51,992 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:54:51,992 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:54:56,351 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:54:56,352 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:54:56,352 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:00,773 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:55:00,774 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:00,774 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:01,075 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:55:01,076 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:55:01,077 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:55:05,182 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:55:05,183 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:05,183 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:09,565 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:55:09,566 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:09,566 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:13,953 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:55:13,954 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:13,955 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:14,256 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:55:14,257 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:55:14,258 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:55:14,269 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 19:55:14,271 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:55:14,271 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:55:14,272 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:55:14,272 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:55:14,273 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:55:18,348 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:55:18,348 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:18,350 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:22,731 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:55:22,732 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:22,732 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:27,103 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:55:27,103 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:27,105 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:27,407 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:55:27,407 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:55:27,408 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:55:31,500 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:55:31,501 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:31,502 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:35,890 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:55:35,891 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:35,891 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:40,280 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:55:40,281 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:40,282 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:40,583 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:55:40,583 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:55:40,585 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:55:44,687 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:55:44,687 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:44,688 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:49,084 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:55:49,085 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:49,085 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:53,467 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:55:53,468 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:53,468 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:55:53,769 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:55:53,770 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:55:53,770 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:55:53,780 - connexion.validators.parameter - DEBUG - /other-event validating parameters...
+2025-03-05 19:55:53,782 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:55:53,782 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the audience-interaction event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:55:53,783 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:55:53,783 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:55:53,784 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:55:57,891 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:55:57,891 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:55:57,892 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:02,281 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:56:02,282 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:02,282 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:06,654 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:56:06,655 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:06,656 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:06,957 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:56:06,957 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:56:06,959 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:56:11,067 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:56:11,068 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:11,069 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:15,465 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:56:15,465 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:15,466 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:19,887 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:56:19,888 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:19,888 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:20,190 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:56:20,190 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:56:20,192 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:56:24,283 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:56:24,284 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:24,285 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:28,676 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:56:28,677 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:28,677 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:33,076 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:56:33,077 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:33,077 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:33,378 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:56:33,379 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:56:33,380 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:56:33,386 - connexion.validators.parameter - DEBUG - /other-event validating parameters...
+2025-03-05 19:56:33,387 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 19:56:33,388 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the audience-interaction event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 19:56:33,389 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:56:33,389 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:56:33,390 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:56:37,480 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:56:37,481 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:37,481 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:41,862 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:56:41,862 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:41,863 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:46,255 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:56:46,256 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:46,256 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:46,558 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:56:46,558 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:56:46,559 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:56:50,645 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:56:50,646 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:50,647 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:55,039 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:56:55,040 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:55,041 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:59,425 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:56:59,426 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:56:59,427 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:56:59,729 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:56:59,730 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:56:59,731 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:57:03,817 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:57:03,818 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:03,818 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:08,185 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:57:08,186 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:08,186 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:12,602 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:57:12,603 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:12,604 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:12,905 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:57:12,905 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:57:12,907 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:57:12,914 - connexion.validators.parameter - DEBUG - /stats validating parameters...
+2025-03-05 19:57:12,916 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:57:12,917 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:57:12,918 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:57:17,003 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:57:17,004 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:17,004 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:21,386 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:57:21,387 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:21,387 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:25,782 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:57:25,782 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:25,783 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:26,084 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:57:26,085 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:57:26,087 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:57:30,219 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:57:30,219 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:30,220 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:34,646 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:57:34,647 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:34,647 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:39,014 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:57:39,015 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:39,015 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:39,317 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:57:39,317 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:57:39,318 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:57:43,410 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:57:43,410 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:43,410 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:47,820 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:57:47,821 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:47,821 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:52,207 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:57:52,208 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:52,209 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:57:52,510 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:57:52,511 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:57:52,511 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 19:57:52,512 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 19:57:52,512 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 19:57:52,513 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:57:56,601 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:57:56,602 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:57:56,602 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:00,971 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:58:00,971 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:00,972 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:05,375 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:58:05,376 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:05,376 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:05,678 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:58:05,679 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:58:05,680 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:58:09,778 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:58:09,779 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:09,779 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:14,180 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:58:14,180 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:14,180 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:18,588 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:58:18,589 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:18,589 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:18,890 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:58:18,891 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:58:18,893 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 19:58:22,983 - pykafka.connection - INFO - Attempt 0: failed to connect to localhost:9092
+2025-03-05 19:58:22,984 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:22,984 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:27,371 - pykafka.connection - INFO - Attempt 1: failed to connect to localhost:9092
+2025-03-05 19:58:27,373 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:27,373 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:31,780 - pykafka.connection - INFO - Attempt 2: failed to connect to localhost:9092
+2025-03-05 19:58:31,781 - pykafka.connection - INFO - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-05 19:58:31,781 - pykafka.connection - INFO - Retrying in 300ms.
+2025-03-05 19:58:32,082 - pykafka.broker - WARNING - Failed to connect to broker at localhost:9092. Check the `listeners` property in server.config.
+2025-03-05 19:58:32,084 - pykafka.cluster - ERROR - Socket disconnected during request for broker localhost:9092. Continuing.
+2025-03-05 19:58:32,084 - basicLogger - ERROR - Error connecting to Kafka: Unable to connect to a broker to fetch metadata. See logs.
+2025-03-05 20:06:38,836 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-05 20:06:38,843 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-05 20:06:38,972 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 20:06:39,042 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,042 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,042 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 20:06:39,043 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,043 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,043 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 20:06:39,044 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,044 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,046 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,046 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,047 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,047 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,050 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,051 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,053 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,053 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,054 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,055 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,056 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,056 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,057 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-05 20:06:39,057 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,058 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,059 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,059 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,059 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,060 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,061 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,062 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,063 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 20:06:39,067 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,068 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,068 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 20:06:39,070 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,070 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,071 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-05 20:06:39,071 - connexion.middleware.abstract - DEBUG - Adding /my-first-event...
+2025-03-05 20:06:39,073 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,074 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,075 - connexion.middleware.abstract - DEBUG - Adding /other-event...
+2025-03-05 20:06:39,075 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,076 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,077 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2025-03-05 20:06:39,078 - connexion.operations.openapi3 - DEBUG - consumes: []
+2025-03-05 20:06:39,079 - connexion.operations.openapi3 - DEBUG - produces: ['application/json', 'application/json']
+2025-03-05 20:06:39,082 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-05 20:06:39,084 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-05 20:06:39,085 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-05 20:06:44,093 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 20:06:44,099 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 20:06:44,100 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 20:06:44,101 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 20:06:44,101 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 20:06:44,102 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:44,120 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:44,192 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:44,193 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-05 20:06:44,194 - pykafka.cluster - DEBUG - Discovered broker id 1001: b'localhost':9092
+2025-03-05 20:06:44,195 - pykafka.connection - DEBUG - Connecting to b'localhost':9092
+2025-03-05 20:06:44,211 - pykafka.connection - DEBUG - Successfully connected to b'localhost':9092
+2025-03-05 20:06:44,219 - pykafka.cluster - INFO - Discovered 1 topics
+2025-03-05 20:06:44,220 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-05 20:06:44,223 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:44,226 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:44,257 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:44,258 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-05 20:06:44,258 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-05 20:06:44,259 - pykafka.simpleconsumer - INFO - Resetting offsets for 1 partitions
+2025-03-05 20:06:44,278 - pykafka.simpleconsumer - INFO - Flushed queue for partition 0
+2025-03-05 20:06:44,279 - pykafka.simpleconsumer - INFO - Starting 1 fetcher threads
+2025-03-05 20:06:45,192 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:45,271 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:45,287 - basicLogger - INFO - No event of type 'player-performance' found at index 0
+2025-03-05 20:06:45,287 - pykafka.simpleconsumer - DEBUG - Finalising <pykafka.simpleconsumer.SimpleConsumer at 0x1ff8b737a90 (consumer_group=None)>
+2025-03-05 20:06:45,295 - connexion.validators.parameter - DEBUG - /my-first-event validating parameters...
+2025-03-05 20:06:45,298 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 20:06:45,299 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the player-performance event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 20:06:45,299 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 20:06:45,300 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 20:06:45,301 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:45,306 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:45,316 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:45,317 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-05 20:06:45,317 - pykafka.cluster - DEBUG - Discovered broker id 1001: b'localhost':9092
+2025-03-05 20:06:45,318 - pykafka.connection - DEBUG - Connecting to b'localhost':9092
+2025-03-05 20:06:45,321 - pykafka.connection - DEBUG - Successfully connected to b'localhost':9092
+2025-03-05 20:06:45,322 - pykafka.cluster - INFO - Discovered 1 topics
+2025-03-05 20:06:45,322 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-05 20:06:45,325 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:45,350 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:45,359 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:45,359 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-05 20:06:45,360 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-05 20:06:45,361 - pykafka.simpleconsumer - INFO - Resetting offsets for 1 partitions
+2025-03-05 20:06:45,367 - pykafka.simpleconsumer - INFO - Flushed queue for partition 0
+2025-03-05 20:06:45,368 - pykafka.simpleconsumer - INFO - Starting 1 fetcher threads
+2025-03-05 20:06:45,394 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:45,395 - pykafka.simpleconsumer - DEBUG - Attempt to cleanup consumer failed
+2025-03-05 20:06:45,396 - pykafka.simpleconsumer - ERROR - weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "C:\Users\ghier\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykafka\simpleconsumer.py", line 449, in fetcher
+    self.cleanup()
+    ^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2025-03-05 20:06:45,459 - pykafka.simpleconsumer - DEBUG - Fetcher thread exiting
+2025-03-05 20:06:46,324 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:46,371 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:46,385 - basicLogger - INFO - No event of type 'player-performance' found at index 100
+2025-03-05 20:06:46,392 - connexion.validators.parameter - DEBUG - /other-event validating parameters...
+2025-03-05 20:06:46,395 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 20:06:46,396 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the audience-interaction event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 20:06:46,397 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 20:06:46,398 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 20:06:46,399 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:46,401 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:46,402 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:46,417 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:46,417 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-05 20:06:46,418 - pykafka.cluster - DEBUG - Discovered broker id 1001: b'localhost':9092
+2025-03-05 20:06:46,420 - pykafka.connection - DEBUG - Connecting to b'localhost':9092
+2025-03-05 20:06:46,422 - pykafka.simpleconsumer - DEBUG - Finalising <pykafka.simpleconsumer.SimpleConsumer at 0x1ff8b756110 (consumer_group=None)>
+2025-03-05 20:06:46,423 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:46,424 - pykafka.simpleconsumer - DEBUG - Attempt to cleanup consumer failed
+2025-03-05 20:06:46,424 - pykafka.connection - DEBUG - Successfully connected to b'localhost':9092
+2025-03-05 20:06:46,425 - pykafka.simpleconsumer - ERROR - weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "C:\Users\ghier\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykafka\simpleconsumer.py", line 449, in fetcher
+    self.cleanup()
+    ^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2025-03-05 20:06:46,426 - pykafka.simpleconsumer - DEBUG - Fetcher thread exiting
+2025-03-05 20:06:46,429 - pykafka.cluster - INFO - Discovered 1 topics
+2025-03-05 20:06:46,429 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-05 20:06:46,431 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:46,447 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:46,454 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:46,454 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-05 20:06:46,455 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-05 20:06:46,456 - pykafka.simpleconsumer - INFO - Resetting offsets for 1 partitions
+2025-03-05 20:06:46,461 - pykafka.simpleconsumer - INFO - Flushed queue for partition 0
+2025-03-05 20:06:46,461 - pykafka.simpleconsumer - INFO - Starting 1 fetcher threads
+2025-03-05 20:06:47,424 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:47,424 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:47,455 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:47,471 - basicLogger - INFO - No event of type 'audience-interaction' found at index 0
+2025-03-05 20:06:47,479 - connexion.validators.parameter - DEBUG - /other-event validating parameters...
+2025-03-05 20:06:47,483 - connexion.decorators.parameter - DEBUG - Query Parameter 'index' (sanitized: 'index') in function arguments
+2025-03-05 20:06:47,485 - connexion.decorators.parameter - DEBUG - index is a {'name': 'index', 'in': 'query', 'description': 'The index of the audience-interaction event in the Kafka queue.', 'required': True, 'schema': {'type': 'integer', 'example': 0}}
+2025-03-05 20:06:47,486 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 20:06:47,487 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 20:06:47,488 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:47,491 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:47,502 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:47,503 - pykafka.simpleconsumer - DEBUG - Finalising <pykafka.simpleconsumer.SimpleConsumer at 0x1ff8b388710 (consumer_group=None)>
+2025-03-05 20:06:47,503 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-05 20:06:47,504 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:47,505 - pykafka.cluster - DEBUG - Discovered broker id 1001: b'localhost':9092
+2025-03-05 20:06:47,505 - pykafka.simpleconsumer - DEBUG - Attempt to cleanup consumer failed
+2025-03-05 20:06:47,508 - pykafka.simpleconsumer - ERROR - weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "C:\Users\ghier\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykafka\simpleconsumer.py", line 449, in fetcher
+    self.cleanup()
+    ^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2025-03-05 20:06:47,507 - pykafka.connection - DEBUG - Connecting to b'localhost':9092
+2025-03-05 20:06:47,509 - pykafka.simpleconsumer - DEBUG - Fetcher thread exiting
+2025-03-05 20:06:47,512 - pykafka.connection - DEBUG - Successfully connected to b'localhost':9092
+2025-03-05 20:06:47,514 - pykafka.cluster - INFO - Discovered 1 topics
+2025-03-05 20:06:47,515 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-05 20:06:47,515 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:47,520 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:47,527 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:47,528 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-05 20:06:47,528 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-05 20:06:47,529 - pykafka.simpleconsumer - INFO - Resetting offsets for 1 partitions
+2025-03-05 20:06:47,535 - pykafka.simpleconsumer - INFO - Flushed queue for partition 0
+2025-03-05 20:06:47,536 - pykafka.simpleconsumer - INFO - Starting 1 fetcher threads
+2025-03-05 20:06:48,513 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:48,513 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:48,529 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:48,544 - basicLogger - INFO - No event of type 'audience-interaction' found at index 100
+2025-03-05 20:06:48,552 - connexion.validators.parameter - DEBUG - /stats validating parameters...
+2025-03-05 20:06:48,554 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-05 20:06:48,555 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-05 20:06:48,556 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:48,559 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:48,567 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:48,568 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-05 20:06:48,569 - pykafka.cluster - DEBUG - Discovered broker id 1001: b'localhost':9092
+2025-03-05 20:06:48,570 - pykafka.connection - DEBUG - Connecting to b'localhost':9092
+2025-03-05 20:06:48,574 - pykafka.simpleconsumer - DEBUG - Finalising <pykafka.simpleconsumer.SimpleConsumer at 0x1ff8b74fd10 (consumer_group=None)>
+2025-03-05 20:06:48,575 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:48,576 - pykafka.simpleconsumer - DEBUG - Attempt to cleanup consumer failed
+2025-03-05 20:06:48,576 - pykafka.simpleconsumer - ERROR - weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "C:\Users\ghier\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykafka\simpleconsumer.py", line 449, in fetcher
+    self.cleanup()
+    ^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2025-03-05 20:06:48,578 - pykafka.simpleconsumer - DEBUG - Fetcher thread exiting
+2025-03-05 20:06:48,590 - pykafka.connection - DEBUG - Successfully connected to b'localhost':9092
+2025-03-05 20:06:48,594 - pykafka.cluster - INFO - Discovered 1 topics
+2025-03-05 20:06:48,594 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-05 20:06:48,596 - pykafka.connection - DEBUG - Connecting to localhost:9092
+2025-03-05 20:06:48,598 - pykafka.connection - DEBUG - Successfully connected to localhost:9092
+2025-03-05 20:06:48,607 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:48,607 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-05 20:06:48,608 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-05 20:06:48,609 - pykafka.simpleconsumer - INFO - Resetting offsets for 1 partitions
+2025-03-05 20:06:48,616 - pykafka.simpleconsumer - INFO - Flushed queue for partition 0
+2025-03-05 20:06:48,617 - pykafka.simpleconsumer - INFO - Starting 1 fetcher threads
+2025-03-05 20:06:49,568 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:49,584 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:49,615 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-05 20:06:49,631 - basicLogger - INFO - Event stats computed: {'num_player_performance': 0, 'num_audience_interaction': 0}
+2025-03-05 20:06:49,655 - pykafka.simpleconsumer - DEBUG - Finalising <pykafka.simpleconsumer.SimpleConsumer at 0x1ff8b74f350 (consumer_group=None)>
+2025-03-05 20:06:49,656 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-05 20:06:49,657 - pykafka.simpleconsumer - DEBUG - Attempt to cleanup consumer failed
+2025-03-05 20:06:49,657 - pykafka.simpleconsumer - ERROR - weakly-referenced object no longer exists
+Traceback (most recent call last):
+  File "C:\Users\ghier\AppData\Local\Programs\Python\Python311\Lib\site-packages\pykafka\simpleconsumer.py", line 449, in fetcher
+    self.cleanup()
+    ^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2025-03-05 20:06:49,659 - pykafka.simpleconsumer - DEBUG - Fetcher thread exiting
+2025-03-05 20:06:50,667 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly

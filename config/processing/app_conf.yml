@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: stats.json
+scheduler:
+  interval: 5
+eventstores:
+  player_performance:
+    url: http://localhost:8090/events/player-performance
+  audience_interaction:
+    url: http://localhost:8090/events/audience-interaction
